@@ -20,7 +20,7 @@ RUN apt-get update \
 
 ### Main GitHub repo
 WORKDIR /root
-RUN git clone https://github.com/mourelatos-lab/TERA-Seq_manuscript.git
+RUN git clone https://github.com/ericzty/TERA-Seq_manuscript.git
 
 ### Install Miniconda3
 ENV PATH "/root/miniconda3/bin:${PATH}"
